@@ -1,0 +1,39 @@
+/* Navigation start */
+#navigation {
+    width: 100%;
+
+    nav {
+        @include display-flex-row;
+        position: fixed;
+        justify-content: space-between;
+        background-color: $main-color;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        z-index: 100;
+        
+        .logo img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .navigation-menu ul li {
+            display: inline-block;
+            list-style-type: none;
+
+            a {
+                color: $secondary-color;
+                text-decoration: none;
+                font-size: 10px;
+                position: relative;
+                padding: 15px 10px;
+                margin-left: 10px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+        }
+
+    }
+}
+
+/* NAvigation ends */

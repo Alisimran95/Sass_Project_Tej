@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.42857;
+    color: $main-font-color;
+    font-family: $main-text-family;
+    overflow: auto;
+    overflow-x: hidden;
+}

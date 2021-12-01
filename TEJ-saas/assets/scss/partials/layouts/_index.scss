@@ -1,0 +1,17 @@
+// Mixins,variables,extends
+@import "../variables/index";
+@import "../mixins/index";
+@import "../extends/index";
+
+// My Sections
+@import "./home/resets";
+@import "./home/navigation";
+@import "./home/intro";
+@import "./home/about";
+@import "./home/services";
+@import "./home/counter";
+@import "./home/portfolio";
+@import "./home/blog";
+@import "./home/testimionals";
+@import "./home/contact";
+@import "./home/adress";

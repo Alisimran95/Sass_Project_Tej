@@ -1,0 +1,36 @@
+/* Counter section start */
+
+#counter .container {
+    width: 100%;
+    background-color: $main-color;
+    color: $secondary-color;
+
+    .counter-boxes {
+        @include display-flex-row;
+        flex-wrap: wrap;
+        padding: 80px 0;
+        justify-content: space-around;
+    }
+
+    .counter-box i {
+        font-size: 20px;
+
+        span {
+            font-size: 48px;
+            font-weight: 500;
+            margin: 40px 0;
+
+        }
+
+        h5 {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: $secondary-color;
+            font-weight: 400;
+        }
+
+    }
+}
+
+/* Counter section ends */

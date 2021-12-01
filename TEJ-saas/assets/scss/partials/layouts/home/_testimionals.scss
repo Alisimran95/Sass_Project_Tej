@@ -1,0 +1,42 @@
+/* Section testimionals  start*/
+#testimonials .container {
+    width: 100%;
+    @include display-flex-column;
+    justify-content: center;
+    text-align: center;
+    background-color: $main-color;
+    color: $secondary-color;
+    padding: 50px 50px;
+    margin-top: 50px;
+
+    i {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin-top: 30px;
+        width: 60%;
+    }
+
+    span {
+        margin-top: 30px;
+    }
+
+    .slider-icons {
+        display: flex;
+        margin-top: 20px;
+
+        .slider-icon {
+            left: 0px;
+            top: 0px;
+            width: 10px;
+            height: 10px;
+            background-color: $secondary-color;
+            border: none;
+            border-radius: 50%;
+        }
+    }
+}
+
+/* Section testimionals ends */

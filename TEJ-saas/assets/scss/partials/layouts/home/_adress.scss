@@ -1,0 +1,34 @@
+/* Footer section start */
+#adress .container {
+    background-color: $main-color;
+    width: 100%;
+    color: $secondary-color;
+
+    .row {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+
+        .col-4 .copyright {
+            @include display-flex-column;
+            
+            img {
+                width: fit-content;
+                height: fit-content;
+            }
+
+        }
+        .social-items li {
+            display: inline-block;
+            padding: 10px;
+
+            i {
+                font-size: 20px;
+            }
+        }
+
+    }
+}
+
+/* Footer section edns */

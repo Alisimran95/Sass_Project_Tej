@@ -1,0 +1,13 @@
+// Flex display center mixin
+@mixin display-flex-row {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+@mixin display-flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

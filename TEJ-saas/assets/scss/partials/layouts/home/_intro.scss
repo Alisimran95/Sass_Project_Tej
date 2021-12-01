@@ -1,0 +1,48 @@
+/* Section intro start */
+#intro {
+    background-image: url("../images/intro-bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+    .container {
+        @include display-flex-column;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 20;
+        align-content: center;
+        justify-content: center;
+        color: $secondary-color;
+
+        .title h1 {
+            font-size: 60px;
+            font-weight: 500;
+        }
+
+        .scroll {
+            margin-top: 250px;
+
+            h3{
+                color: $secondary-color;
+                font-size: 10px;
+                position: relative;
+                
+                &::before{
+                    position: absolute;
+                    width: 3px;
+                    height: 70px;
+                    content: "";
+                    background-color: $secondary-color;
+                    left: 30px;
+                    bottom: 40px;
+                }
+            }
+            
+        }
+    }
+}
+
+/* Section intro ends */

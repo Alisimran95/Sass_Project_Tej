@@ -1,0 +1,51 @@
+/* Services section start */
+#services .container {
+    width: 100%;
+   @include display-flex-column;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    background-color: #ebebeb;
+
+    .title h2 {
+        color: $main-color;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        line-height: 1.5em;
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 50px;
+
+        .box {
+            width: 250px;
+            height: 250px;
+           @include display-flex-column;
+            text-align: center;
+            justify-content: center;
+
+            i {
+                font-size: 30px;
+                margin-bottom: 50px;
+            }
+
+            h4 {
+                font-family: 'Montserrat', sans-serif;
+                color: $main-color;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                line-height: 1.5em;
+                font-weight: 500;
+                font-size: 20px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+/* Services section ends */

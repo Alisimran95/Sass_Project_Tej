@@ -1,0 +1,17 @@
+@media only screen and (max-width:768px) {
+
+   /* Contact section start */
+   #contact .container .contact-box {
+    display: block;
+    padding: 0px;
+    }
+    #contact .container .contact-box .other {
+    min-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    }
+    .form {
+        min-width: 100%;
+    }
+    /* Contact section ends */
+}
